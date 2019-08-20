@@ -1,0 +1,8 @@
+{
+	"students":[
+      {"id":1,"name":"张三","sex":1,"age":12,"hobby":"lol,QQ,Java,python"},
+      {"id":2,"name":"张三","sex":1,"age":12,"hobby":"lol,QQ,Java,python"},
+      {"id":3,"name":"张三","sex":1,"age":12,"hobby":"lol,QQ,Java,python"},
+      {"id":4,"name":"张三","sex":1,"age":12,"hobby":"lol,QQ,Java,python"}
+  ]
+}

@@ -1,12 +1,14 @@
+
+const fs=require('fs');
 const express=require('express');
 const app=express();
+const router=require('./router.js')
 
 app.use(express.static('node_modules'));
 app.use(express.static('public'));
 
-app.use("/",(req,res)=>{
-	res.render('index.html');
-});
+router(app);
+
 
 app.engine('html',require('express-art-template'));
 
