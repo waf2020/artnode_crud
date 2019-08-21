@@ -1,6 +1,23 @@
 
+const express=require('express');
+//创建路由容器
+const router=express.Router();
 
-module.exports=(app)=>{
+
+
+
+//将路由挂在到router路由容器内
+router.get("/student",(req,res)=>{
+
+});
+
+
+
+
+
+
+
+/*module.exports=(app)=>{
 	console.log(app);
 	app.get("/",(req,res)=>{
    fs.readFile("./db.json","utf8",(err,data)=>{
@@ -21,4 +38,4 @@ module.exports=(app)=>{
    
 	
 });
-}
+}*/

@@ -1,0 +1,8 @@
+路由设计：
+
+get  /student        无                  首页
+get  /student/new    无                  学生添加页
+post /student/new    参数：id name pwd   添加学生
+get  /student/edit   参数：id            学生编辑页
+post /student/edit   参数：id name pwd   编辑学生
+get  /student/delete 参数：id            删除学生
